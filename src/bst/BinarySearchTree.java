@@ -120,7 +120,7 @@ public class BinarySearchTree<T extends Comparable<T>> {
 	}
 	
 	private void preOrderRecurse(BSTNode<T> node) {
-		
+		 System.out.println(PreOrder test commit); 
 	}
 	
 	//Traverse the tree in an preorder fashion but using a stack
@@ -140,6 +140,7 @@ public class BinarySearchTree<T extends Comparable<T>> {
 	}
 	
 	public void inOrderRecurse(BSTNode<T> node) {
+		 System.out.println(InOrder test commit);
 		
 	}
 	//Traverse the tree in an inorder fashion but using a stack
@@ -156,6 +157,7 @@ public class BinarySearchTree<T extends Comparable<T>> {
 	}
 	
 	public void postOrderRecurse(BSTNode<T> node) {
+		 System.out.println(PostOrder test commit); 
 		
 	}
 	
