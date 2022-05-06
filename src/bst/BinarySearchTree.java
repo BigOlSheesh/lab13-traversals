@@ -226,7 +226,10 @@ public class BinarySearchTree<T extends Comparable<T>> {
 		
 		
 	}
-	
+	save
+	pull
+	commit
+	push
 
 }
 
