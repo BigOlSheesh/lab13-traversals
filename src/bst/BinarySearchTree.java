@@ -243,7 +243,7 @@ public class BinarySearchTree<T extends Comparable<T>> {
 				if (node.rightChild != null)
 					postHelper.push(node.rightChild);
 				
-			}
+			} 
 			
 			while(!post.isEmpty()) {
 				BSTNode<T> node = post.pop();
